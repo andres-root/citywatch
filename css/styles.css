@@ -1,4 +1,9 @@
 
+a, a:active, a:hover, a:target, a:visited, a:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
 .top-line {
 	background-color: #3498db;
 	height: .7rem;	
@@ -13,11 +18,33 @@ nav.top-menu {
 	height: 5rem;
 }
 
-nav ul {
+nav.top-menu .container {
+	height: 100%;
+}
+
+nav.top-menu ul {
+	font-family: 'Oswald', sans-serif;
+	height: 100%;
 	list-style: none;
+	margin: 0;
 	padding: 0;
 }
 
-nav li {
+nav.top-menu li {
 	display: inline-block;
+	height: 100%;
 }
+
+nav.top-menu li > a {
+	color: #fff;
+	display: block;
+	font-size: 2rem;
+	height: 100%;
+	padding: 1rem 3rem 1rem 3rem;
+	width: auto;
+}
+
+nav.top-menu li > a:hover {
+	background-color: #2980b9;
+}
+
