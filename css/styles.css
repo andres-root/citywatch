@@ -1,0 +1,23 @@
+
+.top-line {
+	background-color: #3498db;
+	height: .7rem;	
+}
+
+section.hero {
+	height: 10rem;
+}
+
+nav.top-menu {
+	background-color: #3498db;
+	height: 5rem;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
